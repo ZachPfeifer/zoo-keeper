@@ -5,17 +5,17 @@ class Alligator {
         gender = '',
         weight = 0,
         tailLengthInch = 0,
-        teethSize = '',
+        teethQuantity = '',
     ) {
         this.id = 0,
-        this.name = name;
+            this.name = name;
         this.color = color;
         this.gender = gender;
         this.weight = weight;
         this.tailLengthInch = tailLengthInch;
-        this.teethSize = teethSize;
+        this.teethQuantity = teethQuantity;
     }
-    eat(food){
+    eat(food) {
         console.log(`Chomp chomp all the ${food}ies.`)
     }
 }
